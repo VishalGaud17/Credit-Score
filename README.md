@@ -26,3 +26,17 @@ The dataset used for this project can be found at the following link:
    ```bash
    git clone https://github.com/your-username/credit-score-classification.git
    cd credit-score-classification
+
+   pip install -r requirements.txt
+
+   import pickle
+
+# Load the model
+with open('CRC.pkl', 'rb') as file:
+    model = pickle.load(file)
+
+# Predict using the model
+# Replace `input_data` with the actual data
+prediction = model.predict([input_data])
+print("Predicted Credit Score:", prediction)
+
