@@ -8,11 +8,6 @@ This project involves building a machine learning model to classify credit score
 - **Features**: Age, Income, Education, Number of Children, Gender, Marital Status, Home Ownership
 - **Objective**: To predict a customer's credit score based on input data.
 
-## Dataset
-
-The dataset used for this project can be found at the following link:
-
-[Dataset Download](#)  *(Replace with the actual link to the dataset)*
 
 ## Key Features
 
