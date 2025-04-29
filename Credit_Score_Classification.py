@@ -116,5 +116,5 @@ print(classification_report(y_test,test_pred))
 import pickle
 
 with open('CRC.pkl', 'wb') as file:
-            pickle.dump(knn, file)
+    pickle.dump(knn, file)
 
